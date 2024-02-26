@@ -1,5 +1,3 @@
-
-
 public class Hesap {
     final static String altinOranSabiti="1.618";
     static boolean altinOran(double sayi1,double sayi2){
