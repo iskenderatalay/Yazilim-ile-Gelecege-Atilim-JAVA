@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+
         /*
         Ogrenci ogrenciObj=new Ogrenci();
         Ogrenci ogrenciObj2=new Ogrenci(2);
