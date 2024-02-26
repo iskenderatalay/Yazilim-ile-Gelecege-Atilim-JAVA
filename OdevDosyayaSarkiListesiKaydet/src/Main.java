@@ -9,9 +9,8 @@ public class Main {
         System.out.println("Eklemek İsteğiniz Şarkıyı Yazın");
         sarki=getData.nextLine();
 
-        if(fileRead("sarkilar.txt").contains(sarki)){
+        if(fileRead("sarkilar.txt").contains(sarki))
             System.out.println("Bu Şarkı Var, Başka Ekleyin");
-        }
         else{
             fileWrite("sarkilar.txt",sarki);
             System.out.println("== Güncel Liste == ");
